@@ -1,7 +1,6 @@
 def roll_call_dwarves(array)
-  message = ""
   array.each_with_index do |names, number|
-    puts number +". " + names
+    puts number
   end
 end
 
