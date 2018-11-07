@@ -24,6 +24,7 @@ def find_the_cheese(array_of_strings)
       if i == cheese_types
         return i
       end
+    end
   else
     return nil
   end
