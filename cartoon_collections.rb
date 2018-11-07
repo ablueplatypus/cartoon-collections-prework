@@ -25,5 +25,5 @@ def find_the_cheese(array_of_strings)
     end
   # value = array_of_strings.include?(cheese_types)
   # if value == true
-  end
+  #end
 end
