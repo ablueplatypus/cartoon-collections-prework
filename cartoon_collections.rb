@@ -20,7 +20,10 @@ def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   value = array_of_strings.include?(cheese_types)
   if value == true
-    return cheese_types
+    array_of_strings.collect do |i|
+      if i == cheese_types
+        return i
+      end
   else
     return nil
   end
